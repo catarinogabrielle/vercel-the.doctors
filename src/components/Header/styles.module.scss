@@ -1,0 +1,100 @@
+.headerContainer {
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background: var(--Branco);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+    z-index: 2;
+}
+
+.headerContent {
+    max-width: 100%;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    img {
+        cursor: pointer;
+        width: 170px;
+        height: auto;
+    }
+
+    @media (max-width: 659px) {
+        img {
+            width: 100px;
+        }
+    }
+}
+
+.infoContentHeader {
+    display: flex;
+    align-items: center;
+
+    a {
+        margin-left: 2.5rem;
+    }
+
+    @media (max-width: 659px) {
+        a {
+            display: none;
+        }
+    }
+}
+
+.menuNav {
+    display: flex;
+    align-items: center;
+
+    a {
+        color: var(--Preto);
+        padding: 0 0.5rem;
+        display: inline-block;
+        position: relative;
+        transition: color 0.7s;
+
+        &+a {
+            margin-left: 2rem;
+        }
+    }
+
+    @media (max-width: 659px) {
+        a {
+            padding: 0 0.1rem;
+        }
+    }
+
+    .linkHeader {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .linkHeader:hover {
+        color: var(--Verde);
+    }
+
+    button {
+        margin-left: 2rem;
+        background: transparent;
+        border: 0;
+    }
+
+    .buttonOutbutton {
+        margin-left: 2rem;
+        background: transparent;
+        border: 0;
+    }
+
+    .icon {
+        color: var(--Cinza);
+        transition: 0.8s;
+    }
+
+    .icon:hover {
+        color: var(--Verde);
+    }
+}

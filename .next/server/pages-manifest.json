@@ -2,8 +2,15 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/materials": "pages/materials.js",
-  "/payment": "pages/payment.js",
-  "/signup": "pages/signup.js",
-  "/": "pages/index.js"
+  "/classes": "pages/classes.html",
+  "/classroom": "pages/classroom.html",
+  "/courses": "pages/courses.html",
+  "/dashboard": "pages/dashboard.html",
+  "/": "pages/index.html",
+  "/materials": "pages/materials.html",
+  "/myclasses": "pages/myclasses.html",
+  "/mycourses": "pages/mycourses.html",
+  "/payment": "pages/payment.html",
+  "/signup": "pages/signup.html",
+  "/404": "pages/404.html"
 }
